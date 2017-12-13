@@ -12,15 +12,18 @@ function bottomReached(element) {
 }
 
 function imgToFetchAmount(width) {
-    if (width < 768) {
-        return 12;
-    }
-    else if (width < 1000) {
-        return 18;
-    }
-    else {
-        return 25;
-    }
+    // if (width < 768) {
+    //     return 12;
+    // }
+    // else if (width < 1000) {
+    //     return 18;
+    // }
+    // else {
+    //     return 25;
+    // }
+
+    // At the moment just load 12 to not have to horrible loadtimes
+    return 12;
 }
 
 class RandomGifs extends React.Component {
