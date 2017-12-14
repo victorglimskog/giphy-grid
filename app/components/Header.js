@@ -4,7 +4,7 @@ const PropTypes = require('prop-types');
 const header = function(props) {
     return (
         <div className="header">
-            <p>Glorious Gifs!!</p>
+            <p>Glorious Gifs!!!</p>
             <label
                 className="refresh-btn"
                 type="button"
